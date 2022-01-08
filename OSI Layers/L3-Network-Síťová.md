@@ -1,1 +1,1 @@
-IPv4, IPv6
+### Spadá v TCP/IP pod vrstvu internetovou.
