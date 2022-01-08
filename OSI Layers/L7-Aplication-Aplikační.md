@@ -1,1 +1,1 @@
-HTTP, FTP, SSH, DNS
+### Spadá v TCP/IP pod vrstvu aplikační.
