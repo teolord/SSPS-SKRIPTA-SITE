@@ -1,4 +1,4 @@
-# Fyzická vrstva
+# L1 Fyzická vrstva
 
 ## Topika: Kódování, Bandwidth
 
