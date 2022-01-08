@@ -1,2 +1,2 @@
 
-<img src="./SSPS-SKRIPTA-SITE/IMAGES/picture1.png">
+<img src="./IMAGES/picture1.png">
