@@ -2,7 +2,8 @@
 
 ## Topika: Kódování, Bandwidth
 
-## Kódování: konvertuje řetězec bitů do formátu čitelné pro další zařízení v cestě v síti.
+## Kódování: 
+Konvertuje řetězec bitů do formátu čitelné pro další zařízení v cestě v síti.
 
 ## Bandwidth: 
 je kapacita dat kterou dokáže médium přenášet. 
