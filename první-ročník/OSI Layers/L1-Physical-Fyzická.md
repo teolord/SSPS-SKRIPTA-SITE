@@ -10,7 +10,7 @@ je kapacita dat kterou dokáže médium přenášet.
 
 *Digitální bandwidth* měří kolik dat se dokáže přenést z jednoho místa na druhé za určitý čas. Kolik bitů dokáže být přeneseno za vteřinu.
 
-### Terminologie: 
+## Terminologie: 
 #### Latence: 
 Doba, včetně zpoždění, po kterou data putují z jednoho daného bodu do druhého.
 
