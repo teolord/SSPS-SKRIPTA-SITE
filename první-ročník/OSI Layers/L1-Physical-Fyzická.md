@@ -4,9 +4,10 @@
 
 ## Kódování: konvertuje řetězec bitů do formátu čitelné pro další zařízení v cestě v síti.
 
-## Bandwidth: je kapacita dat kterou dokáže médium přenášet. 
+## Bandwidth: 
+je kapacita dat kterou dokáže médium přenášet. 
 
-### Digitální bandwidth měří kolik dat se dokáže přenést z jednoho místa na druhé za určitý čas. Kolik bitů dokáže být přeneseno za vteřinu.
+# Digitální bandwidth měří kolik dat se dokáže přenést z jednoho místa na druhé za určitý čas. Kolik bitů dokáže být přeneseno za vteřinu.
 
 ### Terminologie: 
 #### Latence: Doba, včetně zpoždění, po kterou data putují z jednoho daného bodu do druhého.
