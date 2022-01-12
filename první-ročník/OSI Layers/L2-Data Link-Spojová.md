@@ -21,8 +21,10 @@ L2 Switch, Bridge, NIC(Síťová karta (u hostů)), Wireless Access Points
 - **Ethernet**
 - **Token Ring**
 - **PPTP (Point to Point Tunneling Protocol)** Pužíval se na VPN, v dnešní době není bezpečný.
-- **LCP (Link Control Protocol)** je součástí řídicího protokolu point-to-point. Pakety LCP určují standardy přenosu dat. Protokol LCP se používá k určení identity propojených zařízení, pokud je zařízení správné, akceptuje jej, jinak zařízení odmítne. Také určuje, zda je velikost paketu přijata nebo ne. Pokud požadavky překročí parametry, protokol řízení linky toto spojení ukončí.
 - **PPP (Point to Point Protocol)** poskytuje stejné služby jako Serial line interface protocol. Je to robustní protokol, který přenáší ostatní typy packetů také s IP pakety. Poskytuje dva protokoly – LCP a NCP. PPP používá metody rámování, které popisují rámce. PPP se také nazývá znakově orientovaný protokol, který se používá k detekci chyb. PPC poskytuje ověřování připojení, kompresi dat, šifrování a přenos. Používá se v různých sítích, jako jsou telefonní linky, mobilní telefony, sériové kabely, dálkové linky, ISDN, specializované rádiové linky atd.
+- **LCP (Link Control Protocol)** je součástí řídicího protokolu point-to-point. Pakety LCP určují standardy přenosu dat. Protokol LCP se používá k určení identity propojených zařízení, pokud je zařízení správné, akceptuje jej, jinak zařízení odmítne. Také určuje, zda je velikost paketu přijata nebo ne. Pokud požadavky překročí parametry, protokol řízení linky toto spojení ukončí.
+- **NCP (Network Control Protocol)** je součástí PPP. Tento protokol se používá k vyjednávání parametrů a zařízení pro síťovou vrstvu. Pro každý protokol vyšší vrstvy podporovaný PPP existuje jeden NCP. IPCP ( Internet Protocol control protocol), DNCP (DECnet Phase IV Control Protocol), OSINLCP OSI Network Layer Control Protocol), IPXCP (Internetwork Packet Exchange Control Protocol), NBFCP (NetBIOS Frames Control Protocol), IPV6CP (IPv6 Control Protocol) jsou některá z NCP.
+
 
 ## Protokolová datová jednotka:
 frame-rámec
