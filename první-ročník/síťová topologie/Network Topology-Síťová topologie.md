@@ -1,8 +1,6 @@
 # Síťová Topologie
 
-## V této kategorii se zabýváme Fyzickou a Logickou síťovou topologií.
-
-## Topika: Úvod, Fyzická Topologie, Logická Topologie
+## Topika: Úvod, Fyzická Topologie, Logická Topologie, Full/Half Duplex komunikace
 
 ## Úvod:
 Topologie sítě charakterizuje strukturu, způsob jakým jsou mezi sebou propojeny jednotlivá koncová zařizení a datové toky mezi nimi.
@@ -72,3 +70,23 @@ jedná se o topologii, u níž je každé zařízení propojené s každým, kte
 ### Nevýhody:
 - obtížná a nákladná instalace sítě
 - větší spotřeba kabeláže neplatí u bezdrátových sítí
+
+## Full/Half Duplex komunikace:
+### Full Duplex:
+- Umožňuje oběma zařízením současně vysílat a přijímat na sdíleném médiu.
+- Switche pracují ve full duplex režimu.
+
+### Half Duplex: 
+- Umožňuje pouze jednomu zařízení současně odesílat nebo přijímat na sdíleném médiu.
+- Pužívá se u WLAN a BUS topologií
+
+
+
+
+
+
+
+
+
+
+
