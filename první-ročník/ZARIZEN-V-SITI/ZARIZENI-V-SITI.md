@@ -2,7 +2,7 @@
 ## Topika: End Devices, Intermediary Devices, Network Media 
 
 ## End Devices: 
-zařízení se kterými pracujeme na denní bázi
+zařízení se kterými pracujeme na denní bázi.
 - Osobní počitač
 - ip-phone
 - DNS server
