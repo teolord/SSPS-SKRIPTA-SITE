@@ -1,10 +1,15 @@
 # L1 Fyzická vrstva
 
-## Topika: Kódování, Bandwidth
+## Topika: Protokolová datová jednotka, Komponenty v síti, Kódování, Bandwidth, Protokoly
+
+## Protokolová datová jednotka: 
+bity
+
+## Komponenty v síti:
+Hub, Repeater, Koaxiální kabel, optický kabel
 
 ## Kódování: 
 Konvertuje řetězec bitů do formátu čitelné pro další zařízení v cestě v síti.
-
 
 ## Bandwidth: 
 je kapacita dat kterou dokáže médium přenášet. 
