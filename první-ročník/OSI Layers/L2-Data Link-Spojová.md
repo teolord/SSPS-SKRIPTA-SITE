@@ -7,11 +7,20 @@
 - Umožňuje přístup protokolům vyšší vrstvy k médiúm z fyzické vrstvy a enkapsuluje pakety z L3 (IPv4 a IPv6) do frame-rámců L2.
 - Provádí detekci chybných rámců.
 
+### Data Link Layer je često rozdělováná do dvou podvrstev Media Access Control Layer a Logical link control Layer.
+**Media Access Control Layer** Je zodpovědná za řízení, jak zařízení v síti získá přístup k síti a povoluje přenos dat.
+
+**Logical Link Control Layer** Tato podvrstva je zodpovědná za identitu a enkapsulaci protokolů síťové vrstvy a umožňuje vám najít chybný rámec.
+
 ## Komponenty v síti:
 L2 Switch, Bridge, NIC(Síťová karta (u hostů)), Wireless Access Points
 
 ## Protokoly:
-802.11(WLAN), WiFi, Ethernet, Token Ring, PPTP
+- 802.11(WLAN)
+- WiFi
+- Ethernet
+- Token Ring
+- PPTP (Point to Point Tunneling Protocol) Pužíval se na VPN, v dnešní době není bezpečný.
 
 ## Protokolová datová jednotka:
 frame-rámec
