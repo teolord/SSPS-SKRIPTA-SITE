@@ -21,6 +21,7 @@ L2 Switch, Bridge, NIC(Síťová karta (u hostů)), Wireless Access Points
 - Ethernet
 - Token Ring
 - PPTP (Point to Point Tunneling Protocol) Pužíval se na VPN, v dnešní době není bezpečný.
+- LCP (Link Control Protocol) je součástí řídicího protokolu point-to-point. Pakety LCP určují standardy přenosu dat. Protokol LCP se používá k určení identity propojených zařízení, pokud je zařízení správné, akceptuje jej, jinak zařízení odmítne. Také určuje, zda je velikost paketu přijata nebo ne. Pokud požadavky překročí parametry, protokol řízení linky toto spojení ukončí.
 
 ## Protokolová datová jednotka:
 frame-rámec
