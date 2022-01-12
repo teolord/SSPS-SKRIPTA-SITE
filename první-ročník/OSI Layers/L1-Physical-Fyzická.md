@@ -15,11 +15,13 @@ Konvertuje řetězec bitů do formátu čitelné pro další zařízení v cest�
 je kapacita dat kterou dokáže médium přenášet. 
 *Digitální bandwidth* měří kolik dat se dokáže přenést z jednoho místa na druhé za určitý čas. Kolik bitů dokáže být přeneseno za vteřinu.
 
-## Terminologie: 
+## Bandwidth Terminologie: 
 #### Latence: 
 Doba, včetně zpoždění, po kterou data putují z jednoho daného bodu do druhého.
 #### Throughput: 
 Míra přenosu bitů přes médium za dané časové období.
 #### Goodput: 
 Míra použitelných dat přenesených za dané časové období.
+
+## Protokoly: 
 
