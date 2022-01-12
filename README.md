@@ -10,4 +10,4 @@
 - zařízení v síti, dodělat obrázky
 - topologie dodělat obrázky
 - L1 dodělat
-- zbytek začít a dodělat
+- <h3/ >zbytek začít a dodělat <h3/
