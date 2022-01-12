@@ -8,21 +8,21 @@
 - Provádí detekci chybných rámců.
 
 ### Data Link Layer je često rozdělováná do dvou podvrstev Media Access Control Layer a Logical link control Layer.
-**Media Access Control Layer** Je zodpovědná za řízení, jak zařízení v síti získá přístup k síti a povoluje přenos dat.
+**Media Access Control Layer**: Je zodpovědná za řízení, jak zařízení v síti získá přístup k síti a povoluje přenos dat.
 
-**Logical Link Control Layer** Tato podvrstva je zodpovědná za identitu a enkapsulaci protokolů síťové vrstvy a umožňuje vám najít chybný rámec.
+**Logical Link Control Layer**: Tato podvrstva je zodpovědná za identitu a enkapsulaci protokolů síťové vrstvy a umožňuje vám najít chybný rámec.
 
 ## Komponenty v síti:
 L2 Switch, Bridge, NIC(Síťová karta (u hostů)), Wireless Access Points
 
 ## Protokoly:
-- 802.11(WLAN)
-- WiFi
-- Ethernet
-- Token Ring
-- PPTP (Point to Point Tunneling Protocol) Pužíval se na VPN, v dnešní době není bezpečný.
-- LCP (Link Control Protocol) je součástí řídicího protokolu point-to-point. Pakety LCP určují standardy přenosu dat. Protokol LCP se používá k určení identity propojených zařízení, pokud je zařízení správné, akceptuje jej, jinak zařízení odmítne. Také určuje, zda je velikost paketu přijata nebo ne. Pokud požadavky překročí parametry, protokol řízení linky toto spojení ukončí.
-- PPP (Point to Point Protocol) poskytuje stejné služby jako Serial line interface protocol. Je to robustní protokol, který přenáší ostatní typy packetů také s IP pakety. Poskytuje dva protokoly – LCP a NCP. PPP používá metody rámování, které popisují rámce. PPP se také nazývá znakově orientovaný protokol, který se používá k detekci chyb. PPC poskytuje ověřování připojení, kompresi dat, šifrování a přenos. Používá se v různých sítích, jako jsou telefonní linky, mobilní telefony, sériové kabely, dálkové linky, ISDN, specializované rádiové linky atd.
+- **802.11(WLAN)**
+- **WiFi**
+- **Ethernet**
+- **Token Ring**
+- **PPTP (Point to Point Tunneling Protocol)** Pužíval se na VPN, v dnešní době není bezpečný.
+- **LCP (Link Control Protocol)** je součástí řídicího protokolu point-to-point. Pakety LCP určují standardy přenosu dat. Protokol LCP se používá k určení identity propojených zařízení, pokud je zařízení správné, akceptuje jej, jinak zařízení odmítne. Také určuje, zda je velikost paketu přijata nebo ne. Pokud požadavky překročí parametry, protokol řízení linky toto spojení ukončí.
+- **PPP (Point to Point Protocol)** poskytuje stejné služby jako Serial line interface protocol. Je to robustní protokol, který přenáší ostatní typy packetů také s IP pakety. Poskytuje dva protokoly – LCP a NCP. PPP používá metody rámování, které popisují rámce. PPP se také nazývá znakově orientovaný protokol, který se používá k detekci chyb. PPC poskytuje ověřování připojení, kompresi dat, šifrování a přenos. Používá se v různých sítích, jako jsou telefonní linky, mobilní telefony, sériové kabely, dálkové linky, ISDN, specializované rádiové linky atd.
 
 ## Protokolová datová jednotka:
 frame-rámec
