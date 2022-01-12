@@ -1,6 +1,6 @@
 ### Spadá v TCP/IP pod Vrstvu síťového rozhraní.
 
-## Topika: Účel Data Link vrstvy, Komponenty v síti, Protokoly, Protokolová datová jednotka
+## Topika: Účel Data Link vrstvy, Komponenty v síti, Protokoly, Protokolová datová jednotka, Full/Half Duplex komunikace
 
 ## Účel: 
 - Zodpovídá za komunikaci mezi koncovými zařízeními. 
@@ -15,4 +15,13 @@ L2 Switch, Bridge, NIC(Síťová karta (u hostů)), Wireless Access Points
 
 ## Protokolová datová jednotka:
 frame-rámec
+
+## Full/Half Duplex komunikace:
+### Full Duplex:
+- Umožňuje oběma zařízením současně vysílat a přijímat na sdíleném médiu.
+- Switche pracují ve full duplex režimu.
+
+### Half Duplex: 
+- Umožňuje pouze jednomu zařízení současně odesílat nebo přijímat na sdíleném médiu.
+- Pužívá se u WLAN a BUS topologií
 
