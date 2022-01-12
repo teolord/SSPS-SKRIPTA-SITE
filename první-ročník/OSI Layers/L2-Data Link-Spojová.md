@@ -1,6 +1,6 @@
 ### Spadá v TCP/IP pod Vrstvu síťového rozhraní.
 
-## Topika: Účel Data Link vrstvy, Komponenty v síti, Protokoly, Protokolová datová jednotka, Full/Half Duplex komunikace
+## Topika: Účel Data Link vrstvy, Komponenty v síti, Protokoly, Protokolová datová jednotka, Full/Half Duplex komunikace, Metody řízení přístupu
 
 ## Účel: 
 - Zodpovídá za komunikaci mezi koncovými zařízeními. 
@@ -8,9 +8,11 @@
 - Provádí detekci chybných rámců.
 
 ### Data Link Layer je često rozdělováná do dvou podvrstev Media Access Control Layer a Logical link control Layer.
-**Media Access Control Layer**: Je zodpovědná za řízení, jak zařízení v síti získá přístup k síti a povoluje přenos dat.
+### Media Access Control Layer: 
+Je zodpovědná za řízení, jak zařízení v síti získá přístup k síti a povoluje přenos dat.
 
-**Logical Link Control Layer**: Tato podvrstva je zodpovědná za identitu a enkapsulaci protokolů síťové vrstvy a umožňuje vám najít chybný rámec.
+### Logical Link Control Layer: 
+Tato podvrstva je zodpovědná za identitu a enkapsulaci protokolů síťové vrstvy a umožňuje vám najít chybný rámec.
 
 ## Komponenty v síti:
 L2 Switch, Bridge, NIC(Síťová karta (u hostů)), Wireless Access Points
@@ -37,4 +39,32 @@ frame-rámec
 ### Half Duplex: 
 - Umožňuje pouze jednomu zařízení současně odesílat nebo přijímat na sdíleném médiu.
 - Pužívá se u WLAN a BUS topologií
+
+## Metody řízení přístupu:
+### Kontrolovaný přístup:
+- Deterministický přístup, kde má každý uzel svůj vlastní čas na médiu.
+- Používá se ve starších sítích, jako je Token Ring a ARCNET.
+
+### Contention-based access(nedokážu to přeložit):
+- Přístup pro více zařízení s detekcí kolizí (CSMA/CD), používá se u Bus topogie.
+- Přístup pro více zařízení se snímáním operátora s předcházením kolizím (CSMA/CA), používá se na WLAN a LAN.
+
+## CSMA/CD
+- Používané staršími LAN
+- Pracuje v half duplex režimu, kdy pouze jedno zařízení současně odesílá nebo přijímá.
+- Používá proces detekce kolize k řízení toho, kdy může zařízení odesílat a co se stane, pokud odesílá více zařízení současně.
+
+### CSMA/CD proces detekce kolize:
+- Zařízení vysílající současně způsobí kolizi signálu na sdíleném médiu.
+- Zařízení detekují kolizi.
+- Zařízení čekají náhodnou dobu a znovu přenášejí data.
+
+## CSMA/CA
+- Používané sítěmi WLAN IEEE 802.11.
+- Pracuje v half duplex režimu, kdy pouze jedno zařízení současně odesílá nebo přijímá.
+- Používá proces detekce kolize k řízení toho, kdy může zařízení odesílat a co se stane, pokud odesílá více zařízení současně.
+
+### CSMA/CA poces vyhýbání se kolizi:
+- Zařízení při přenosu zahrnují také dobu potřebnou pro přenos.
+- Ostatní zařízení na sdíleném médiu obdrží informaci o době trvání nedostupnosti média.
 
