@@ -17,7 +17,7 @@ zařízení která spojují koncová zařízení do sítě. Taktéž nazývána 
 
 ## Network Media: 
 způsoby přes které probíha komunikace. Taktéž nazývána jako pasivní prvek sítě. 
-- UTP dělí se na categorie nejnovější CAT7
+- UTP dělí se na kategorie, nejnovější CAT7
 - STP
 - optický kabel
 - Wi-Fi
