@@ -64,7 +64,7 @@ frame-rámec
 - Pracuje v half duplex režimu, kdy pouze jedno zařízení současně odesílá nebo přijímá.
 - Používá proces detekce kolize k řízení toho, kdy může zařízení odesílat a co se stane, pokud odesílá více zařízení současně.
 
-### CSMA/CA poces vyhýbání se kolizi:
+### CSMA/CA proces vyhýbání se kolizi:
 - Zařízení při přenosu zahrnují také dobu potřebnou pro přenos.
 - Ostatní zařízení na sdíleném médiu obdrží informaci o době trvání nedostupnosti média.
 
