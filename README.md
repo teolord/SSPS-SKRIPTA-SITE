@@ -7,6 +7,7 @@
 - L2 dodělat obrázky
 - L7 dopsat skoro vše
 - L7 dodělat obrázky
+- zařízení v síti, dodělat obrázky
 - topologie dodělat obrázky
 - L1 dodělat
 - zbytek začít a dodělat
