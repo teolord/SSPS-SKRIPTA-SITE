@@ -4,7 +4,7 @@
 
 ## Protokoly:
 - **DHCP**
-- **DNS**, převádí IP adresy na domény a domény na IP adresy. Z důvodu aby jsme si nemuseli pamatovat adresu např. 185.99.71.99 ale jen *ssps.cz*.
+- **DNS(Domain Name System)**, převádí IP adresy na domény a domény na IP adresy. Z důvodu aby jsme si nemuseli pamatovat adresu např. 185.99.71.99 ale jen *ssps.cz*.
 - **FTP(File Transfer Protocol)**, umožňuje nahrávat vzdáleňe soubory na server nebo je z něj stahovat. Doporučený nástroj: Filezilla
 - **HTTP**
 - **POP3**
