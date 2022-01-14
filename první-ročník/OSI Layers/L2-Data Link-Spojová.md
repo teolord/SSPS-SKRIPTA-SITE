@@ -68,3 +68,13 @@ frame-rámec
 - Zařízení při přenosu zahrnují také dobu potřebnou pro přenos.
 - Ostatní zařízení na sdíleném médiu obdrží informaci o době trvání nedostupnosti média.
 
+## Unicast:
+komunikace dvou zařízení
+
+## Broadcast:
+
+### Limited Broadcasting:
+
+### Direct Broadcasting:
+
+## Multicast:
