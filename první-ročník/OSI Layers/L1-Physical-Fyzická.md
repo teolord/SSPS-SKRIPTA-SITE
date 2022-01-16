@@ -24,4 +24,5 @@ Míra přenosu bitů přes médium za dané časové období.
 Míra použitelných dat přenesených za dané časové období.
 
 ## Protokoly: 
+- Ethernet
 
