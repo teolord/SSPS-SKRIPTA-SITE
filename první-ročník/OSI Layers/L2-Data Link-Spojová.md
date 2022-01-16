@@ -69,7 +69,7 @@ frame-rámec
 - Ostatní zařízení na sdíleném médiu obdrží informaci o době trvání nedostupnosti média.
 
 ## Unicast:
-komunikace dvou zařízení
+komunikace dvou zařízení z jiných sítích
 
 ## Broadcast:
 
