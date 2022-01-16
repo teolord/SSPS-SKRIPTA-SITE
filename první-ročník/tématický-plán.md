@@ -56,6 +56,6 @@
 
 - 61-62 Opakování, hodnocení 
 
-63-64 Cvičení konfigurace se statickým směrováním v Packet Traceru 
+- 63-64 Cvičení konfigurace se statickým směrováním v Packet Traceru 
 
-65-66 Konfigurace reálných routerů a switchů
+- 65-66 Konfigurace reálných routerů a switchů
