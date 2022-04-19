@@ -4,11 +4,6 @@
 
 #### Úvod
 
-UDP port - 67/68
-
-
-| | 
-|---|---|
 |67|HOST|
 |68|SERVER/KLIENT|
 
