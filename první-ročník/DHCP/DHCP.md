@@ -8,11 +8,19 @@
 
 68 - SERVER
 
-*DHCP* je protokol nacházející se na Síťové vrstvě. Zajišťuje nám aby nové zařízení v síti mohli fungovat. 
+*DHCP* je protokol nacházející se na Síťové vrstvě. Zajišťuje nám aby nové zařízení v síti mohli fungovat. Jeho předchůdci jsou Reverse ARP a Bootstrap protokol. 
+
+#### Přiřazení adresy
+- probíhá 4 way handshakem.
+
+> Host pošle DHCPDISCOVER na portu 68 na broadcast aby našel DHCP server
+> Server odpoví DHCPOFFER na portu 67 a nabídne adresu, hosta najde pomocí MAC adresy
+> Host pošle DHCPREQUEST na portu 68, žádá o nabídnutou IP adresu
+> Server odpoví DHCPACKNOWLEDGE na portu 67, server potvrzuje přiřazení adresy a zapisuje si ho do "poolu"
 
 Přiřazuje hostům:
 - IPv4 adresu
-- NTP (Network Time Protocol (je to dobrý pro analýzu))
+- NTP (Network Time Protocol (pro analýzu))
 - Gateway
 - DNS server (například Cloudflare - 1.1.1.1 nebo Google - 8.8.8.8)
 
