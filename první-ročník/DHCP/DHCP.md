@@ -14,8 +14,11 @@
 - probíhá 4 way handshakem.
 
 > Host pošle DHCPDISCOVER na portu 68 na broadcast aby našel DHCP server
+> 
 > Server odpoví DHCPOFFER na portu 67 a nabídne adresu, hosta najde pomocí MAC adresy
+> 
 > Host pošle DHCPREQUEST na portu 68, žádá o nabídnutou IP adresu
+> 
 > Server odpoví DHCPACKNOWLEDGE na portu 67, server potvrzuje přiřazení adresy a zapisuje si ho do "poolu"
 
 Přiřazuje hostům:
