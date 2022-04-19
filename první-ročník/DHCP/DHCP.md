@@ -23,7 +23,7 @@
 
 Přiřazuje hostům:
 - IPv4 adresu
-- NTP (Network Time Protocol (pro analýzu))
+- NTP (pro analýzu)
 - Gateway
 - DNS server (například Cloudflare - 1.1.1.1 nebo Google - 8.8.8.8)
 
