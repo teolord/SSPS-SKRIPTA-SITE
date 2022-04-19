@@ -2,10 +2,10 @@
 
 ## Topika: Úvod, nastavení v IOS, nastavení dedikovaného serveru, security
 
-#### Úvod
+### Úvod
 
-|67|HOST|
-|68|SERVER/KLIENT|
+67 - HOST
+68 - SERVER
 
 *DHCP* je protokol nacházející se na Síťové vrstvě. Zajišťuje nám aby nové zařízení v síti mohli fungovat. 
 
