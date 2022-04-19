@@ -52,7 +52,7 @@ SW(dhcp-config)#client-identifier 0100.1217.59b0.73       // MAC adresa před kt
 SWITCH#show ip dhcp bindings                              // seznam přidělených adres
 SWITCH#clear ip dhcp bindings                             // vymaže seznam
 SWITCH#show ip dhcp conflicts                             // seznam konfliktů
-SW#clear ip dhcp conflicts                            // vymaže seznam konfliktů
-SW#show ip dhcp pool                                  // informace o poolu
-SW#show ip dhcp server statistics                     // statistiky serveru
+SW#clear ip dhcp conflicts                                // vymaže seznam konfliktů
+SW#show ip dhcp pool                                      // informace o poolu
+SW#show ip dhcp server statistics                         // statistiky serveru
 ```
