@@ -4,11 +4,14 @@
 
 ### Úvod
 
-67 - HOST
+port 67 - HOST
 
-68 - SERVER
+port 68 - SERVER
 
-*DHCP* je protokol nacházející se na Síťové vrstvě. Zajišťuje nám aby nové zařízení v síti mohli fungovat. Jeho předchůdci jsou Reverse ARP a Bootstrap protokol. 
+*DHCP* je protokol nacházející se na Síťové vrstvě. Zajišťuje nám aby nové zařízení v síti mohli fungovat. Jelikož jim automaticky přiděluje potřebné věci. Jeho předchůdci jsou Reverse ARP a Bootstrap protokol. 
+
+#### Statické DHCP
+- DHCP tabulka si uchovává přiřazenou IP adresu k MAC tabulce, pomocí toho tak může mít zařízení pokaždé stejnou IP ikdyž se odpojí ze sítě. Využívá se pro servery. 
 
 #### Přiřazení adresy
 - probíhá 4 way handshakem.
@@ -21,7 +24,7 @@
 > 
 > Server odpoví DHCPACKNOWLEDGE na portu 67, server potvrzuje přiřazení adresy a zapisuje si ho do "poolu"
 
-Přiřazuje hostům:
+DHCP Přiřazuje hostům:
 - IPv4 adresu
 - NTP (pro analýzu)
 - Gateway
