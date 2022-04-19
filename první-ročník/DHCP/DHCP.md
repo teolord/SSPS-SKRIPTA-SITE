@@ -1,8 +1,8 @@
 # DHCP - Dynamic Host Configuration Protocol
 
-## Topika: Úvod, nastavení v IOS, security
+### Topika: Úvod, nastavení v IOS, security
 
-### Úvod
+## Úvod
 
 port 67 - HOST
 
@@ -30,7 +30,7 @@ DHCP Přiřazuje hostům:
 - Gateway
 - DNS server (například Cloudflare - 1.1.1.1 nebo Google - 8.8.8.8)
 
-### Nastavení DHCP na Switchi nabo Routeru s IOS
+## Nastavení DHCP na Switchi nabo Routeru s IOS
 
 #### Základní konfigurace DHCP
 ```
@@ -57,7 +57,7 @@ SW#show ip dhcp pool                                      // informace o poolu
 SW#show ip dhcp server statistics                         // statistiky serveru
 ```
 
-#### DHCP security
+## DHCP security
 - Pro síť je špatně nastavené DHCP hrozba.
 
 #### Startvation attack
