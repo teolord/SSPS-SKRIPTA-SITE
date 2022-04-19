@@ -6,6 +6,12 @@
 
 UDP port - 67/68
 
+
+| | 
+|---|---|
+|67|HOST|
+|68|SERVER/KLIENT|
+
 *DHCP* je protokol nacházející se na Síťové vrstvě. Zajišťuje nám aby nové zařízení v síti mohli fungovat. 
 
 Přiřazuje hostům:
