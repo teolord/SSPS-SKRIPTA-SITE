@@ -1,6 +1,6 @@
 # DHCP - Dynamic Host Configuration Protocol
 
-## Topika: Úvod, nastavení v IOS, nastavení dedikovaného serveru, security
+## Topika: Úvod, nastavení v IOS, security
 
 ### Úvod
 
@@ -56,3 +56,5 @@ SW#clear ip dhcp conflicts                                // vymaže seznam konf
 SW#show ip dhcp pool                                      // informace o poolu
 SW#show ip dhcp server statistics                         // statistiky serveru
 ```
+
+#### DHCP security
