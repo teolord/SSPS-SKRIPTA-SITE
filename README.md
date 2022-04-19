@@ -10,4 +10,5 @@
 - zařízení v síti, dodělat obrázky
 - topologie dodělat obrázky
 - L1 dodělat
+- dodělat DHCP
 - **zbytek začít a dodělat**
