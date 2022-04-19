@@ -27,24 +27,13 @@ Přiřazuje hostům:
 - Gateway
 - DNS server (například Cloudflare - 1.1.1.1 nebo Google - 8.8.8.8)
 
-##### Chování serveru
+### Nastavení DHCP na Switchi nabo Routeru s IOS
 
-Server může vyslat následující typy zpráv
-
-|Typ|Popis
-|---|---|
-|DHCPOFFER|Nabídka adresy spolu s konfigurací sítě|
-|DHCPACK|Potvrdí žádost|
-|DHCPNAK|Odmítne žádost|
-
-##### Chování klienta
-
-Klient může serveru vyslat následující typy zpráv
-
-|Typ|Popis
-|---|---|
-|DHCPDISCOVER|Zažádá o adresu|
-|DHCPREQUEST|
-|DHCPDECLINE|Klient odmítá nabízenou adresu, zjistil, že je již použita|
-|DHCPRELEASE|Klient se zbavuje adresy, je možné ji zase půjčovat|
-|DHCPINFORM|
+#### Základní konfigurace
+```
+SW(config)#ip dhcp pool NETWORK1                          //vytvoří pool se jménem 
+SW(dhcp-config)#network 192.168.190.0 255.255.255.0       //nastaví adresní rozsah
+SW(dhcp-config)#default-router 192.168.190.1              //Gateway adresa
+SW(dhcp-config)#dns-server 1.1.1.1 8.8.8.8                //adresy DNS serverů (můžeme nastavit až 8 adres)
+SW(dhcp-config)#lease 30                                  //pronájem adresy na 30 dní, formátje den hodina minuta (tedy třeba 0 0 10 = 10 minut)
+```
