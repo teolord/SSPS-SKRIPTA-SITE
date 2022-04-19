@@ -5,12 +5,13 @@
 ### Úvod
 
 67 - HOST
+
 68 - SERVER
 
 *DHCP* je protokol nacházející se na Síťové vrstvě. Zajišťuje nám aby nové zařízení v síti mohli fungovat. 
 
 Přiřazuje hostům:
-- IP adresu
+- IPv4 adresu
 - NTP (Network Time Protocol (je to dobrý pro analýzu))
 - Gateway
 - DNS server (například Cloudflare - 1.1.1.1 nebo Google - 8.8.8.8)
