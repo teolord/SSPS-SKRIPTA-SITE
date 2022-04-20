@@ -13,6 +13,15 @@ port 68 - server
 #### Statické DHCP
 - DHCP tabulka si uchovává přiřazenou IP adresu k MAC adrese, pomocí toho tak může mít zařízení pokaždé stejnou IP ikdyž se odpojí ze sítě. Využívá se pro servery. 
 
+##### DHCP tabulka 
+- Zde si server uchovává všechny přidělené adresy.
+- Ukládá se zde:
+           - Na jakém interface je host připojen.
+           - MAC adresa hosta.
+           - IP adresa hosta.
+           - Datum expirace adresy.
+           - Jméno hosta.
+
 #### Přiřazení adresy
 - probíhá 4 way handshakem.
 
@@ -59,6 +68,8 @@ SW#show ip dhcp server statistics                         // statistiky serveru
 
 ## DHCP security
 - Pro síť je špatně nastavené DHCP hrozba.
+- Důležitá je zde port security.
+- Kontrolovat jaké zařízení se napojují do sítě.
 
 #### Startvation attack
 - Útočník zahlcuje tabulku pro volne hosty pomocí scriptu. Poté můžu začít hostovat vlastní DHCP server, jelikož původní bude plný noví hostové budou dostávat adresu od útočníkovo DHCP serveru. Jelikož DHCP přiřazuje i gateway tak útočník zde může dát svoji IP adresu a jednoduše získat Man in the Middle útok.
