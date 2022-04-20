@@ -11,7 +11,7 @@ port 68 - server
 *DHCP* je protokol nacházející se na Síťové vrstvě. Zajišťuje nám aby nové zařízení v síti mohli fungovat. Jelikož jim automaticky přiděluje potřebné věci. Jeho předchůdci jsou Reverse ARP a Bootstrap protokol. 
 
 #### Statické DHCP
-- DHCP tabulka si uchovává přiřazenou IP adresu k MAC tabulce, pomocí toho tak může mít zařízení pokaždé stejnou IP ikdyž se odpojí ze sítě. Využívá se pro servery. 
+- DHCP tabulka si uchovává přiřazenou IP adresu k MAC adrese, pomocí toho tak může mít zařízení pokaždé stejnou IP ikdyž se odpojí ze sítě. Využívá se pro servery. 
 
 #### Přiřazení adresy
 - probíhá 4 way handshakem.
