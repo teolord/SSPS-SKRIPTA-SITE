@@ -16,7 +16,7 @@ port 68 - server
 ##### DHCP tabulka 
 - Zde si server uchovává všechny přidělené adresy.
 
-- Ukládá se zde:
+Ukládá se zde:
 - Na jakém interface je host připojen.
 - MAC adresa hosta.
 - IP adresa hosta.
