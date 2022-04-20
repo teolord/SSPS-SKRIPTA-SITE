@@ -17,16 +17,11 @@ port 68 - server
 - Zde si server uchovává všechny přidělené adresy.
 
 - Ukládá se zde:
-           
-           - Na jakém interface je host připojen.
-           
-           - MAC adresa hosta.
-           
-           - IP adresa hosta.
-           
-           - Datum expirace adresy.
-           
-           - Jméno hosta.
+- Na jakém interface je host připojen.
+- MAC adresa hosta.
+- IP adresa hosta.
+- Datum expirace adresy.
+- Jméno hosta.
 
 #### Přiřazení adresy
 - probíhá 4 way handshakem.
