@@ -5,7 +5,7 @@
 ### TCP - Transmission Control Protocol
 
 #### Aplikační protokoly využívající TCP
-- FTP, DNS, SMTP, SSH
+- FTP, SMTP, SSH, HTTP
 
 
 
@@ -16,6 +16,7 @@
 
 
 
-### UDP
+### UDP - User Datagram Protocol
 
 #### Aplikační protokoly využívající UDP
+- HTTP, VoIP, SNMP, 
