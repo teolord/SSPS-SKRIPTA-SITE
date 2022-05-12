@@ -10,7 +10,7 @@
 
 ## Privátní
 
-- používají se v LAN
+- používají se v LAN a VPN
 
 - jsou schované od WAN pomocí NAT
 
