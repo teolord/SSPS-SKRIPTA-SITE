@@ -18,7 +18,7 @@
 |B|172.16.0.0 - 172.31.255.255|12 - 255.240.0.0|1 048 576|
 |C|192.168.0.0 - 192.168.255.255|16 - 255.255.0.0|65 536|
 
-- naši privátní adresu můžeme zjistit pomocí příkazu
+### Naši privátní adresu můžeme zjistit pomocí příkazu:
 
 |OS|Příkaz|
 |---|---|
