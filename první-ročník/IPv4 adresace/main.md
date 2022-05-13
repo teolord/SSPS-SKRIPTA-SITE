@@ -4,6 +4,8 @@
 
 ## Veřejné
 
+- Přiřazuje společnost [IANA]
+
 ## Privátní
 
 - používají se v LAN a VPN
@@ -26,3 +28,5 @@
 |Windows| ipconfig|
 |Linux| ip a|
 |MacOS| (nikdo nepoužívá)|
+
+[IANA]: https://www.iana.org/
