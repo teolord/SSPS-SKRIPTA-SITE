@@ -31,7 +31,7 @@
 
 ### Firemní (kritické)
 
-- musíme dát pozor zejména při dělání velkých sítí aby se zde nevyskytovala single point of failure
+- musíme dát pozor zejména při dělání důležitých sítí aby se zde nevyskytovala single point of failure
 
 - port security
 
