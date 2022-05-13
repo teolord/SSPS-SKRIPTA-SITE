@@ -119,7 +119,7 @@
     -   Součást nástrojové sady je také IDS pro bezdrátové sítě
 
 
-### Co je firewall a k čemu slouží?
+### Firewall
 
 - Softwarové programy nebo hardwarová zařízení, která filtrují a zkoumají informace přicházející prostřednictvím připojení k internetu (z vnějšího světa do sítě)
 
