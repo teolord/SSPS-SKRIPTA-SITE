@@ -124,3 +124,32 @@
     -   Bohatý nástroj pro práci s bezdrátovými sítěmi
 
     -   Součást nástrojové sady je také IDS pro bezdrátové sítě
+
+
+### Co je firewall a k čemu slouží?
+
+- Softwarové programy nebo hardwarová zařízení, která filtrují a zkoumají informace přicházející prostřednictvím připojení k internetu (z vnějšího světa do sítě)
+
+-   **Hardwarový** (personální) firewall = samostatné hardwarové řešení pro ochranu počítačové sítě
+
+    -   Malá nebo žádná konfigurace (zabudovány do hardwaru)
+
+    -   Umístěn před vstupem do lokální sítě a tedy filtruje přístup ke všem prostředkům v dané síti
+
+    -   Hardwarové brány firewall poskytují základní zabezpečení pro IoT, např.: chytré žárovky (často slabé funkce zabezpečení)
+
+-   **Softwarový** (síťový) firewall = realizován na koncových stanicích (počítačích)
+
+    -   Umístěn na samostatných počítačích
+
+    -   Filtruje příchozí a odchozí komunikaci mezi počítačem a vnějším internetem(WAN)
+
+    -   Více konfigurace než hardwarový firewall
+
+    -   **Windows:** Windows Firewall, Norton 360, Avast Internet Security
+
+    -   **Linux:** `iptables`, `nftables`
+
+- **Bezpečnostní politika firewallu** = Nastavení pravidel pro komunikaci přes firewall (dnes už nemusí být pouze pravidla, ale i překlady adres (NAT) atd.)
+
+- Při nastavování pravidel je dobré si určit, jak moc je síť vystavena útokům a jak moc je třeba dbát na bezpečnost. Např.: U vás doma je síť vystavena mnohem menšímu riziku, než datový server s citlivými informacemi
