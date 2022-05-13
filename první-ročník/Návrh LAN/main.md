@@ -12,7 +12,7 @@
 
 - Infrastruktura a Architektura
 
-  - DHCP ano nebo "ne"
+  - DHCP *ano* nebo *ne*
   
     - normální nebo statické DHCP
   
