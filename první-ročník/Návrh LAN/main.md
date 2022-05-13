@@ -12,11 +12,15 @@
 
 - Infrastruktura a Architektura
 
-  - DHCP *ano* nebo *ne*
+  - DHCP
+    
+    - ano nebo ne
   
     - normální nebo statické DHCP
   
   - DNS
+
+    - lokální nebo veřejné
   
   - Počet připjení od ISP (možnost více připojení pro minimalizaci nedostupnosti k WAN(u velkých kritických sítí))
   
