@@ -4,10 +4,6 @@
 
 ## Veřejné
 
-|Rozsah|
-|---|
-|1.1.1.1 - 
-
 ## Privátní
 
 - používají se v LAN a VPN
