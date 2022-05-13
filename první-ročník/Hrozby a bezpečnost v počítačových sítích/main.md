@@ -2,14 +2,7 @@
 
 ## Zabezpečení
 
-- IDS a IPS
-
-- Firewall
-
-  - WAF (Web Application Firewall)
-
-- SOC (Security Operations Centre) a NOC (Network Operations Centre)
-
+### SOC (Security Operations Centre) a NOC (Network Operations Centre)
 
 ### IDS a IPS
 
