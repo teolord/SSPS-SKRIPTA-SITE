@@ -11,6 +11,8 @@
 - topologie dodělat obrázky
 - L1 dodělat
 - u DHCP dodělat security (Snooping)
-- **zbytek začít a dodělat**
 - Hrozby a bezpečnost v počítačových sítích
   - dodělat SOC NOC, typy útoků  
+- návrh LAN
+  -  Security
+- **zbytek začít a dodělat**
