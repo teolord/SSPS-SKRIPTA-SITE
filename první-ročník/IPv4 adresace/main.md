@@ -12,7 +12,7 @@
 
 - jsou schované od WAN pomocí NAT
 
-- jsou tři rozsahy sítě
+- jsou 4 rozsahy sítě
 
 |Class|Rozsah|Maska|Počet adres|
 |---|---|---|---|
