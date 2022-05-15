@@ -4,9 +4,10 @@
 
 ## Úvod
 
-port 67 - host
-
-port 68 - server
+|Klient|Port|
+|---|---|
+|Host|67|
+|Server|68|
 
 *DHCP* je protokol nacházející se na Síťové vrstvě. Zajišťuje nám aby nové zařízení v síti mohli fungovat. Jelikož jim automaticky přiděluje potřebné věci. Jeho předchůdci jsou Reverse ARP a Bootstrap protokol. 
 
