@@ -21,4 +21,9 @@
   - dodělat SOC NOC, typy útoků  
 - návrh LAN
   -  Security
+- DNS
+  - caching  
+  - security
+  - reverse DNS
+  - DNSSEC
 - **zbytek začít a dodělat**
