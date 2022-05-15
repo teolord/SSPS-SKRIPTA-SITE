@@ -13,7 +13,7 @@
 
 - Abychom porozuměli procesu, který stojí za DNS, je důležité dozvědět se o různých hardwarových komponentách, mezi kterými musí DNS dotaz projít. U webového prohlížeče probíhá vyhledávání DNS "na pozai" a nevyžaduje žádnou interakci z počítače uživatele kromě počátečního dotazu.
 
-### Pro načtení domény se využívají 4 servery
+## Pro načtení domény se využívají 4 servery
 
 #### DNS recursor
 
@@ -31,7 +31,7 @@
 
 - Tento konečný jmenný server si lze představit jako slovník na polici s knihami, ve kterém lze konkrétní jméno přeložit do jeho definice. Autoritativní jmenný server je poslední zastávkou v dotazu na jmenný server. Pokud má autoritativní jmenný server přístup k požadovanému záznamu, vrátí IP adresu pro požadovaný název cíle zpět DNS rekurzoru, který provedl počáteční požadavek.
 
-### DNS queries
+## DNS queries
 
 - Při typickém vyhledávání DNS se vyskytují tři typy dotazů. Použitím kombinace těchto dotazů může optimalizovaný proces pro překlad DNS vést ke snížení uběhlé cesty dat. V ideální situaci budou k dispozici data záznamů uložených v mezipaměti, což umožní jmennému serveru DNS vrátit nerekurzivní dotaz.
 
