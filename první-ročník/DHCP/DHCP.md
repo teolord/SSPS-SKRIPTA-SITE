@@ -77,6 +77,7 @@ SW#show ip dhcp server statistics                         // statistiky serveru
 
 Python script: 
 - pozor jaký interface používáte
+- je potřeba mít nainstalovanou knihovnu scapy
 ```
 #!/usr/bin/python3
 from scapy.all import *
