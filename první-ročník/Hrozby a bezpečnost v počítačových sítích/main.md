@@ -4,6 +4,14 @@
 
 ### SOC (Security Operations Centre) a NOC (Network Operations Centre)
 
+#### SOC
+
+- vyskytuje se ve velkých infrastrukturách kde je zapotřebí monitorovat bezpečnost
+
+- K monitorování se používá SIEM (Security Information and Event Management)
+
+#### NOC
+
 ### IDS a IPS
 
 #### Systém prevence a detekce průniku (Intrusion Prevention Systems)
