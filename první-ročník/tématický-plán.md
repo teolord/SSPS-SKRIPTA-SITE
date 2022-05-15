@@ -46,7 +46,7 @@
 
 - 51-52 DHCP – automatické přiřazení IP adresy (pouze princip) https://github.com/teolord/SSPS-SKRIPTA-SITE/tree/main/prvn%C3%AD-ro%C4%8Dn%C3%ADk/DHCP
 
-- 53-54 DNS - princip, konfigurace, ukázkové topologie 
+- 53-54 DNS - princip, konfigurace, ukázkové topologie https://github.com/teolord/SSPS-SKRIPTA-SITE/tree/main/prvn%C3%AD-ro%C4%8Dn%C3%ADk/DNS
 
 - 55-56 Statické směrování - routovací tabulka, cvičení konfigurace 
 
