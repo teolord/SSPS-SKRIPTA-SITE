@@ -12,7 +12,7 @@
 
 - 11-12 Procvičování konfigurace, vzdálený přístup
 
-- 13-16 Komunikační protokoly a standardy, model ISO/OSI
+- 13-16 Komunikační protokoly a standardy, model ISO/OSI https://github.com/teolord/SSPS-SKRIPTA-SITE/tree/main/prvn%C3%AD-ro%C4%8Dn%C3%ADk/OSI%20Layers
 
 - 17-18 Opakování, rezerva, hodnocení
 
