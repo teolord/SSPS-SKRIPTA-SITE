@@ -26,4 +26,5 @@
   - security
   - reverse DNS
   - DNSSEC
+- Porty, Socket, Wireshark 
 - **zbytek začít a dodělat**
