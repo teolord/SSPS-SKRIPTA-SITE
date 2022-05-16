@@ -6,4 +6,4 @@ https://www.wireshark.org/
 
 - zachycený provoz se ukládá do souboru .pcap nebo .pcapng
 
-- alternativa je nástroj TCPdump https://www.tcpdump.org/
+- alternativa je nástroj TCPDUMP https://www.tcpdump.org/
