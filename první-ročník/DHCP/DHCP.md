@@ -36,7 +36,7 @@ Ukládá se zde:
 > Server odpoví DHCPACKNOWLEDGE na portu 67, server potvrzuje přiřazení adresy a zapisuje si ho do "poolu"
 
 DHCP Přiřazuje hostům:
-- IPv4 adresu
+- IP adresu
 - NTP (pro analýzu)
 - Gateway
 - DNS server (například Cloudflare - 1.1.1.1 nebo Google - 8.8.8.8)
