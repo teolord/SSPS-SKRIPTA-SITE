@@ -21,7 +21,7 @@
 |C|192.168.0.0 - 192.168.255.255|16 - 255.255.0.0|65 536|
 |localhost|127.0.0.0 - 127.255.255.255|8 - 255.0.0.0|16 777 216|
 
-### Naši privátní adresu můžeme zjistit pomocí příkazu:
+### Naši konfiguraci síťové karty můžem vypsat pomocí příkazů:
 
 |OS|Příkaz|
 |---|---|
