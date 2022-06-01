@@ -2,6 +2,9 @@
 
 ## Zabezpečení
 
+### Konfigurace
+- Dáváme si pozor aby důležité služby např. SSH a SFTP nebyly vystrčené do Internetu. Pokud k nim potřebujeme přistoupit můžeme využít VPN tunelování. Také si u těchto služeb dáváme pozor aby nebyli na větším portu než 1024. Jelikož v UNIXových systémech má ke konfiguračním souborům těchto služeb běžící na větším portu než 1024 každý uživatel přístup. 
+
 ### SOC (Security Operations Centre) a NOC (Network Operations Centre)
 
 #### SOC
